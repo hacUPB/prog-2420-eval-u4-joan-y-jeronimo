@@ -1,23 +1,9 @@
 import mathplotlib.pyplot as plt
 import csv
 
-def main():
+
     
-    while True:
-        print(f"Menú Principal \n 1. Listar archivos presentes en la ruta actual (o añadir una ruta donde buscar los archivos)\n 2.Procesar archivo .txt \n 3. Procesar archivo separado por comas \n 4. Salir")
-
-        opcion = input(int("Seleccione lo que desea realizar: "))
-        if opcion == 1:
-            Listar_archivos()
-        elif opcion == 2:
-            Procesar_txt()
-        elif opcion == 3:
-           Procesar_archivos_csv()
-        elif opcion == 4:
-            print("Saliste del programa. ¡Hasta pronto!")
-        else:
-            print("Por favor elija una opción del 1 al 4")
-
+   
 def Listar_archivos():
         print("Archivos en la ruta actual:")
         print("Archivos1.txt")
@@ -146,6 +132,22 @@ def Graficar_Columna(archivo):
     plt.xlabel("índice")
     plt.ylabel("Valor")
     plt.show()
+
+    while True:
+        print(f"Menú Principal \n 1. Listar archivos presentes en la ruta actual (o añadir una ruta donde buscar los archivos)\n 2.Procesar archivo .txt \n 3. Procesar archivo separado por comas \n 4. Salir")
+
+        opcion = input(int("Seleccione lo que desea realizar: "))
+        if opcion == 1:
+            Listar_archivos()
+        elif opcion == 2:
+            Procesar_txt()
+        elif opcion == 3:
+           Procesar_archivos_csv()
+        elif opcion == 4:
+            print("Saliste del programa. ¡Hasta pronto!")
+        else:
+            print("Por favor elija una opción del 1 al 4")
+
 
 if __name__ == "__main__":
     main()

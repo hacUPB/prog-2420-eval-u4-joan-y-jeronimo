@@ -2,6 +2,9 @@
 # Unidad 
 ---
 ## Documentación del proyecto
-Nombre:  
-ID:  
+Nombres: - Jerónimo Jaramillo Rivera
+         - Joan García Sanchez
+
+IDs:  - 000540650
+      - 000
 ---

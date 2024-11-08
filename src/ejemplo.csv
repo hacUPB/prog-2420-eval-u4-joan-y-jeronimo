@@ -1,0 +1,11 @@
+ID,Nombre,Categoría,Precio,Cantidad en stock
+1,Camiseta, Ropa, 15.99, 30
+2,Pantalón, Ropa, 29.99, 15
+3,Zapatos, Calzado, 49.99, 10
+4,Gorra, Accesorios, 9.99, 50
+5,Chaqueta, Ropa, 59.99, 5
+6,Mochila, Accesorios, 25.99, 20
+7,Sandalias, Calzado, 19.99, 25
+8,Cinturón, Accesorios, 7.99, 35
+9,Suéter, Ropa, 34.99, 8
+10,Calcetines, Ropa, 4.99, 100
